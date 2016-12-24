@@ -13,12 +13,12 @@
     ],
     "require": {
         "php": ">=5.4.4",
-        "symfony/event-dispatcher": "^2.3",
-        "symfony/property-access": "^2.3",
-	"symfony/validator": "^2.3",
-	"symfony/serializer": "^2.3",
-        "doctrine/common": "^2.1",
-        "akeneo/storage-utils": "0.6.x-dev"
+        "symfony/event-dispatcher": "^2.3|~3.0",
+        "symfony/property-access": "^2.3|~3.0",
+	    "symfony/validator": "^2.3|~3.0",
+	    "symfony/serializer": "^2.3|~3.0",
+        "doctrine/common": "^2.7",
+        "akeneo/storage-utils": "dev-master"
     },
     "require-dev": {
         "phpspec/phpspec": "3.0.0"
